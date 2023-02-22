@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Kvizd Static Banner",
+    "version": "1.0",
+    "description": "Display banner content immediately",
+    "icons": {
+        "16": "images/favicon.png",
+        "32": "images/favicon.png",
+        "48": "images/favicon.png",
+        "128": "images/favicon.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "https://kvizd.hr/"
+            ]
+        }
+    ]
+}
