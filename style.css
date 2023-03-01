@@ -1,0 +1,11 @@
+.link-holder {
+    border-color: #084892;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+.live-link {
+    color: #911414;
+}

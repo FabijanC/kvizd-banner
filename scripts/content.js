@@ -4,13 +4,13 @@ const band = document.getElementsByClassName("band")[0];
 const bandSpans = band.getElementsByTagName("span");
 
 for (const span of bandSpans) {
-  span.style = `
-        border-color: black;
-        border-width: thin;
-        border-style: solid;
-        border-radius: 5px;
-        padding: 1px;
-  `;
+  span.classList.add("link-holder");
+  if (span.innerText.includes("LIVE")) {
+    // add special class to the link itself
+    const child = span.children[0];
+    console.assert(child.tagName === "A");
+    child.classList.add("live-link");
+  }
 }
 
 // move spans to be direct children of band
