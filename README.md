@@ -18,6 +18,6 @@ I would show you how it looks after applying the extension, but the styling (CSS
 
 Currently you have to install this extension from source. Follow these steps:
 
-1. Either clone this repo or download its [zip archive](https://github.com/FabijanC/wiki-relevance/archive/refs/heads/master.zip) and unpack it
+1. Either clone this repo or download its [zip archive](https://github.com/FabijanC/kvizd-banner/archive/refs/heads/master.zip) and unpack it
 2. Go to your extension manager (or paste `chrome://extensions/` into your address bar)
 3. Press **Load unpacked** and select the extension directory
